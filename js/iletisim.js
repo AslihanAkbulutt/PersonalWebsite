@@ -1,3 +1,4 @@
+
 function formDenetle(){
     var Ad=document.getElementById('ad').value;
     var labelAd=document.getElementById('labelAd');
