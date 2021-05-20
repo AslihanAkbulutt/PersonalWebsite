@@ -1,3 +1,4 @@
+
 function loginDenetle(){
     var kulAd="g201210080@sakarya.edu.tr";
     var sifre="g201210080";
