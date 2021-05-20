@@ -9,7 +9,7 @@ function formDenetle(){
     if(!(isNaN(Ad))){
         labelAd.style.color="rgb(201, 55, 19)";
         Hata.style.visibility="visible";
-        //return false;
+        return false;
     }
     else{
         labelAd.style.color="black";
@@ -18,7 +18,7 @@ function formDenetle(){
     if(!(isNaN(Soyad))){
         labelSoyad.style.color="rgb(201, 55, 19)";
         Hata.style.visibility="visible";
-        //return false;
+        return false;
     }
     else{
         labelSoyad.style.color="black";
@@ -27,7 +27,7 @@ function formDenetle(){
     if(Mesaj==""){
         labelMesaj.style.color="rgb(201, 55, 19)";
         Hata.style.visibility="visible";
-        //return false;
+        return false;
     }
     else{
         labelMesaj.style.color="black";
