@@ -4,7 +4,7 @@
     font-size: 1.5em;
     
 }
-.row-text{
+.row_text{
     margin: 2rem 0;
 }
 .label{
@@ -44,7 +44,6 @@ form button:hover{
     height: 5rem;
     border: 1px solid rgb(7, 134, 207);
     border-radius: 30px;
-    box-shadow: 1px 1px 1px rgb(1, 1, 1);
     margin-top: 1rem;
     visibility: hidden;
     line-height: 5rem;
@@ -52,9 +51,7 @@ form button:hover{
     color: rgb(7, 134, 207);
 
 }
-.footer{
-    margin-top: 2rem;
-}
+
 @media screen and (max-width: 760px){
     .label{
         text-align: left;
