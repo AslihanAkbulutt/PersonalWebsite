@@ -13,14 +13,14 @@ if(isset($_POST['login'])){
             echo "$parola";
         }
         else{
-            header("Location:../html/login.html");
+            header("Location:../login.html");
         }
     }
     else{
-        header("Location:../html/login.html");
+        header("Location:../login.html");
     }
 }
 else {
-    header("Location:../html/login.html");
+    header("Location:../login.html");
 }
 ?>
