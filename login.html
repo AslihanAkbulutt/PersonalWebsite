@@ -14,10 +14,11 @@
     <title>Login</title>
   </head>
   <body>
-    <div class="container-fluid header" id="top">
+    <div class="container-fluid header cizgi" id="top">
         <nav class="navbar navbar-expand-lg">            
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" >
+                <p>|||</p>
+			</button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -47,37 +48,37 @@
         </nav>        
     </div>
     <div class="container-fluid govde">
-        <div class="row row-resim">
+        <div class="row row_resim">
             <div class="col-md-2"></div>
-            <div class="col-md-8 login-resim">
+            <div class="col-md-8">
                 <img src="img/login.png" alt="">
             </div>
             <div class="col-md-2"></div>
         </div>
-        <div class="row row-form">
+        <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <form action="php/login.php" method="POST" name="form" onsubmit="return loginDenetle()">
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-2"></div>
-                        <div class="col-md-8 text-div"><input type="email" name="kullaniciAdi" id="kullaniciAdi" class="text" placeholder="Kullanıcı Adı..."></div>
-                        <div class="col-md-2"></div>
-                    </div>
-                    <div class="row row-text">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-8 text-div"><input type="password" name="parola" id="parola" class="text" placeholder="Parola..."></div>
+                        <div class="col-md-8 text_div"><input type="email" name="kullaniciAdi" id="kullaniciAdi" class="text" placeholder="Kullanıcı Adı..."></div>
                         <div class="col-md-2"></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-2"></div>
-                        <div class="col-md-8 text-div"><button type="submit" class="button" id="login" name="login">Login</button></div>
+                        <div class="col-md-8 text_div"><input type="password" name="parola" id="parola" class="text" placeholder="Parola..."></div>
+                        <div class="col-md-2"></div>
+                    </div>
+                    <div class="row row_text">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8 text_div"><button type="submit" class="button" id="login" name="login">Login</button></div>
                         <div class="col-md-2"></div>
                     </div>
                 </form> 
             </div>
         </div>
         <div class="col-md-2"></div>
-            <div class="row row-hata">
+            <div class="row">
                 <div class="col-md-4"></div>
                 <div class="col-md-4 hata" id="hata"></div>
                 <div class="col-md-4"></div>
