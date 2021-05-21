@@ -14,10 +14,10 @@
     <title>İletişim</title>
   </head>
   <body>
-    <div class="container-fluid header" id="top">
+    <div class="container-fluid header cizgi" id="top">
         <nav class="navbar navbar-expand-lg">            
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav">
+               <p>|||</p>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
@@ -47,36 +47,36 @@
             
         </nav>        
     </div>
-    <div class="container form-govde">
-        <div class="row row-baslik">
+    <div class="container">
+        <div class="row">
             <div class="col-md-12 baslik">İletişim Formu</div>
         </div>
-        <div class="row row-form">
+        <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <form action="php/iletisim.php" method="POST" name="form" onsubmit="return formDenetle()">
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label" id="labelAd">Ad</div>
-                        <div class="col-md-8 text-div"><input type="text" name="ad" id="ad" class="text" required></div>
+                        <div class="col-md-8"><input type="text" name="ad" id="ad" class="text" required></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label" id="labelSoyad">Soyad</div>
-                        <div class="col-md-8 text-div"><input type="text" name="soyad" id="soyad" class="text" required></div>
+                        <div class="col-md-8"><input type="text" name="soyad" id="soyad" class="text" required></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label" id="labelEmail">E-mail</div>
-                        <div class="col-md-8 text-div"><input type="email" name="email" id="email" class="text" required></div>
+                        <div class="col-md-8"><input type="email" name="email" id="email" class="text" required></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label">Cinsiyet</div>
-                        <div class="col-md-8 text-div">
+                        <div class="col-md-8">
                             <input type="radio" name="cinsiyet" value="Bay" checked>Erkek
                             <input type="radio" name="cinsiyet" value="Bayan">Kadın
                         </div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label">Konu</div>
-                        <div class="col-md-8 text-div">
+                        <div class="col-md-8">
                             <select name="konu" class="text">
                                 <option  value="Genel" selected>Genel</option>
                                 <option value="Yazılım">Yazılım</option>
@@ -84,24 +84,24 @@
                             </select>
                         </div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label">Programlama Dili</div>
-                        <div class="col-md-8 text-div">
+                        <div class="col-md-8">
                             <input type="checkbox" name="dil[]" value="Cpp" checked>C++
                             <input type="checkbox" name="dil[]" value="Html" >HTML
                             <input type="checkbox" name="dil[]" value="Css">CSS
                             <input type="checkbox" name="dil[]" value="Javascript"> Javascript
                         </div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-4 label" id="labelMesaj">Mesajınızı Yazınız</div>
-                        <div class="col-md-8 text-div"><textarea name="mesaj" id="mesaj" class="text" cols="60" rows="4" placeholder="Mesajınızı Girin..." required></textarea></div>
+                        <div class="col-md-8"><textarea name="mesaj" id="mesaj" class="text" cols="60" rows="4" placeholder="Mesajınızı Girin..." required></textarea></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-6 button"><button type="submit" name="gonder">Gönder</button></div>
                         <div class="col-md-6 button"><button type="reset">Temizle</button></div>
                     </div>
-                    <div class="row row-text">
+                    <div class="row row_text">
                         <div class="col-md-2"></div>
                         <div class="col-md-8 hata" id="hata">Lütfen Kırmızı Alanları Doldurunuz</div>
                         <div class="col-md-2"></div>
