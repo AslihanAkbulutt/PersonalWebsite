@@ -7,6 +7,24 @@
     border-bottom: 2px solid rgb(1, 1, 1);
     border-radius: 10px;
 }
+.yazi{
+    padding-top: 1.5rem;
+    height: 10em;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-bottom-right-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    margin: 0;
+}
+.yazi p{
+    text-align: justify;
+}
+.yazi a{
+    color: black;
+}
+.yazi a:hover{
+    text-decoration: none;
+}
 .ben{
     text-align: center;
     padding-top: 2rem;
@@ -16,16 +34,16 @@
     height: 10rem;
     border-radius: 50%;
 }
-.baslik{
+.baslik-yazi{
     font-weight: bold;
     font-size: 2em;
     text-align: left;
     line-height: 11rem;
 }
-.baslik p{
+.baslik-yazi p{
     margin-left: 3rem;
 }
-.bilgiler_baslik{
+.bilgiler-baslik{
     margin-top: 5rem;
     border-bottom: 1px solid;
     margin-bottom: 2rem;
@@ -37,18 +55,18 @@
         border: none;
         border-radius: 0%;
     }
-    .baslik{
+    .baslik-yazi{
         text-align: center;
         line-height: 5rem;
     }
-    .row_baslik{
+    .row-baslik{
         text-decoration: underline;
     }
-    .bilgiler_baslik{
+    .bilgiler-baslik{
         text-align: center;
         margin-top: 1rem;
     }
-    .baslik p{
+    .baslik-yazi p{
         margin-left: 0;
     }
 }
